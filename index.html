@@ -1,117 +1,113 @@
-<! DOCTYPE html>
-<html lang = "en">
+<!--This is re-write of the first index.html page I ever created when learning to build with HTML/CSS
+with the addition of some random Javascript I learn on the way -->
 
-<head>
-<title>This is a horrible website</title>
-<style>
-/*comment*/
-main {
-	width: 600px;
-	height: 300px;
-	padding: 10px;
-	background: beige;
-}	
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>This is a horrible website</title>
+		<style>
+			main
+			{
+				width:600px;
+				height:300px;
+				padding: 10px;
+				background: beige;
+			}
+			
+			h1
+			{
+				color: blue;
+				border-bottom: 5px dotted lightblue;
+			}
 
-h1 {
-	color: blue;
-	border-bottom: 5px dotted lightblue;
-}
-
-p {
-	font-family: arial;	
-	color: red;	
-}
-
-a {
-	font-family: arial;	
-	color: red;	
-}
-
-</style>
-</head>
-<body>
-
-<main>
-<h1>My first Heading</h1>
-<!-- comment -->
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-</main>
-
-<p>My first paragraph. <a target = " blank" href = "https://chatgpt.com/">Here is a link to ChatGPT</a></p>
-
-<br>
-
-<a target = " blank" href = "https://www.linkedin.com/in/dotson-pham">Visit my linkedin page</a>
-
-<img src = "https://static.wikia.nocookie.net/capcomdatabase/images/1/13/Complete_Works_Mega_Man.png/revision/latest/scale-to-width-down/340?cb=20150926185022" width="200px" alt="It's Megaman!!!" title="The goat"/>
-
-<div style = "text-align: center;">
-<p class="styled-text">This is a normal paragraph</p>
-<p class="styled-text">This is a <em>emphasized</em> paragraph</p>
-<p class="styled-text">This is a <strong>strong</strong> paragraph</p>
-<p style="color:purple" id ="decorative">This is a colorized, stylized paragraph</p>
-</div>
-
-<p><span style = "font-size:36px;">This is a *****!</span><br>
-And more of a *****!</p>
-
-<p>This is an unordered list of shit to do</p>
-<ul>
-<li>Keep learning HTML</li>
-<li>Learn CSS eventually</li>
-<li>Eventually learn React</li>
-<li>Build your damn website</li>
-<li>Build the damn game too</li>
-<li>Finish DataAnnotations job application</li>
-</ul>
-
-<p>This is an ordered list</p>
-<ol start="3;">
-<li>Dotson Pham</li>
-<li>Alumni from GMU</li>
-<li>Computer Engineering</li>
-</ol>
-
-
-<table>
-	<tr>
-	<th>Name</th>
-	<th>Role</th>
-	<th>Rating</th>
-	</tr>
+			p
+			{
+				font-family: arial;
+				color: red;
+			}
+			
+			a
+			{
+				font-family: arial;
+				color: red;
+			}
+		</style>
+	</head>
 	
-	<tr>
-	<td>Tona</td>
-	<td>Runner</td>
-	<td>8/10</td>
-	</tr>
+	<body>
+		<h1>My first heading</h1>
+		<h2>heading 2</h2>
+		<h3>heading 3</h3>
+		<h4>heading 4</h4>
+		<h5>heading 5</h5>
+		<h6>heading 6</h6>
 
-	<tr>
-	<td>Manal</td>
-	<td>Barista</td>
-	<td>8/10</td>
-	</tr>
-	
-</table>
-<br>
-<button onclick="alert('You clicked something')">DON'T HIT THIS</button>
+		<p>My first paragraph. <a target=" blank" href = "https://chatgpt.com/">Here is a link to ChatGPT</a></p>
+		<br>
+		<a target=" blank" href="https://www.linkedin.com/in/dotson-pham">Visit my linkedin page</a>
+		<br>
+		<img src="https://static.wikia.nocookie.net/capcomdatabase/images/1/13/Complete_Works_Mega_Man.png/revision/latest/scale-to-width-down/340?cb=20150926185022" width="200px" alt="It's Megaman!!!" title="the goat"/>
+		
+		<div style = "text-align: center;">
+			<p class="styled-text">This is a normal paragraph</p>
+			<p class="styled-text">This is a <em>emphasized</em> paragraph</p>
+			<p class="styled-text">This is a <strong>strong</strong> paragraph</p>
+			<p style="color: purple" id="decorative">This is a colorized, stylized paragraph</p>
+		</div>
 
-<br><br>
+		<p><span style="font-size:36px;">This is a *****!</span></br>And more of a *****!</p>
+		<p>This is an unordered list of things to do</p>
+		<ul>
+			<li>Keep learning HTML</li>
+			<li>Learn CSS eventually</li>
+			<li>Eventually learn React</li>
+			<li>Build your own website</li>
+			<li>Build your own game too</li>
+			<li>Finish some other stuff too</li>
+		</ul>
+		<p>This is an ordered list</p>
+		<ol>
+			<li>Dotson Pham</li>
+			<li>Alumni from GMU</li>
+			<li>Computer Engineering</li>
+			<li>Embedded Systems</li>
+			<li>Should I go back for Grad School?</li>
+			<li>Let's keep grinding</li>
+		</ol>
 
-<label for="soda-names">Choose a soda:</label>
-<select>
-<option>Sprite</option>
-<option>Coke</option>
-<option>Dr. Pepper</option>
-<option>Mountain Dew</option>
-</select>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Role</th>
+				<th>Rating</th>
+					
+			</tr>
+			<tr>
+				<td>Tona</td>
+				<td>Runner</td>
+				<td>8/10</td>
+			</tr>
+			<tr>
+				<td>Manal</td>
+				<td>Barista</td>
+				<td>8/10</td>
+			</tr>
+		</table>
+		<br>
 
-<br><br>
+		<button onclick="alert('You clicked something!')">Don't hit this...</button>
+		<br><br>
+		<label for "soda-names">Choose a soda:</label>
+		<select>
+			<option>Sprite</option>
+			<option>Coke</option>>
+			<option>Dr. Pepper</option>
+			<option>Mountain Dew</option>
+		</select>
+		<br><br>
 
-<hr>
-</body>
+		<hr>
+	</body>
 </html>
+	
